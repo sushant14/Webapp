@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+input[type=text], select,textarea {
+    width: 50%;
+    padding:10px;
+    margin:10px;
+    display: inline-block;
+    border: 1px solid black;
+}
+input[type=submit] {
+    width: 50%;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    margin:10px;
+}
+input[type=submit]:hover {
+    background-color:blue;
+}
+div {
+    background-color: #f2f2f2;
+    padding: 20px;
+
+}
+</style></head>
+<body>
+<div>
+<form action=" " method="GET">
+First name:  <br><input type="text" name="first_name" ><br>
+Last name:  <br><input type="text" name="last_name" ><br>
+
+Choose Your Option:<br>
+<select name="option">
+  <option value="1">1</option>
+  <option value="2">2</option>
+  <option value="3">3</option>
+  <option value="5">4</option>
+</select><br>
+<textarea name="message" rows="5" cols="30"></textarea><br>
+<input type="submit" name="submit_button" value="submit" >
+</form>
+</div>
+</body>
+</html>
